@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laurel Wright | UI Designer & Frontend Developer</title>
+    <link rel="stylesheet" href="/portfolio.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav-logo">
+        <p>Laurel Wright</p>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero-image-container">
+        <div class="hero-image">
+          <h1>Hi! I'm Laurel.</h1>
+          <p>I am a UI Designer and Frontend Developer based in Berlin.</p>
+          <button>Resume</button>
+        </div>
+      </section>
+      <section class="skills-container">
+        <a id="skills"></a>
+        <h2>Skills & Experience</h2>
+        <div class="skills-list-container">
+          <div>
+            <ul class="skills-list-1">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Node.js</li>
+              <li>React</li>
+              <li>MongoDB</li>
+              <li>Express</li>
+            </ul>
+          </div>
+          <div>
+            <ul class="skills-list-2">
+              <li>Squarespace</li>
+              <li>Shopify</li>
+              <li>Sketch</li>
+              <li>Figma</li>
+              <li>Adobe Creative Suite</li>
+              <li>MailChimp</li>
+              <li>Webflow</li>
+            </ul>
+          </div>
+          <div>
+            <ul class="skills-list-3">
+              <li>Responsive Design</li>
+              <li>Web Design</li>
+              <li>Project Management</li>
+              <li>SEO</li>
+              <li>Google Analytics</li>
+              <li>User Interface Design</li>
+              <li>GitHub</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="praise">
+        <h2>Praise</h2>
+        <p class="praise-quote">
+          "After seeing her impressive work on other web design projects, I
+          reached out to Laurel when I wanted to launch a website for my own
+          small business. In our initial consultation, Laurel spent over an hour
+          on the phone with me patiently hashing out my vision for my company
+          and what I wanted to convey to potential clients, down to even the
+          smallest details and nuances. She was prompt in delivering her project
+          proposal, and not only planned/allowed for several rounds of
+          revisions, but encouraged me to be an active part of the design
+          process to make sure I was fully satisfied with the result - and I
+          absolutely am!"
+        </p>
+        <p class="praise-quote-credit">
+          Jessica Workman, Founder of Candlewood Investigations
+        </p>
+      </section>
+      <section class="contact">
+        <a id="contact"></a>
+        <h2>Contact</h2>
+        <p>
+          Are you interested in working together? Fill out the form below and
+          I'll be in touch soon!
+        </p>
+        <div class="contact-form">
+          <form
+            action="send"
+            method="POST"
+            enctype="multipart/form-data"
+            id="contact-form"
+          >
+            <label for="name">Name</label>
+            <input type="text" name="user_name" id="name" required />
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" />
+            <label for="message">Leave A Message!</label>
+            <textarea name="message" id="message" cols="50" rows="5"></textarea>
+            <button type="submit" value="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+      <footer>
+        <div class="social-media"></div>
+        <p>©2021 Laurel Wright</p>
+      </footer>
+    </main>
+    <script src="portfolio.js"></script>
+  </body>
+</html>
